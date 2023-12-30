@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/Noir"
+    tools:context="com.auriau.vincent.application2.MenuPrincipal">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/titre_jeu"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:id="@+id/imageView" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/tour_eiffel_menu_prin_2"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/jouer"
+        android:layout_alignStart="@+id/jouer"
+        android:id="@+id/imageView2"
+        android:layout_below="@+id/buttoninitialize" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/jouer"
+        android:text="@string/play"
+        android:gravity="center"
+        android:textColor="@color/Blanc"
+        android:background="@drawable/bouton_deux"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:text="@string/initialize"
+        android:textColor="@color/Blanc"
+        android:background="@drawable/bouton_deux"
+        android:id="@+id/buttoninitialize"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/jouer"
+        android:layout_alignLeft="@+id/imageView2"
+        android:layout_alignStart="@+id/imageView2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scoretotal"
+        android:textColor="@color/Blanc"
+        android:elevation="2dp"
+        android:textSize="20sp"
+        android:layout_alignTop="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="96dp" />
+</RelativeLayout>

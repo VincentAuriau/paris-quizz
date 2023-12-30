@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Noir">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:id="@+id/scrollViewLvl1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/lvl1"
+                android:background="@color/Noir"
+                android:textColor="@color/Blanc"
+                android:textSize="32sp"
+                android:id="@+id/textViewLvl1" />
+
+            <LinearLayout
+                android:id="@+id/linearlvl.1"
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="50dp">
+
+                    <Button
+                        android:id="@+id/operagarnier"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/opera_garnier"/>
+
+                    <ImageView
+                        android:id="@+id/checkgarnier"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="50dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/notredamelorette"
+                        android:background="@drawable/eglise_notre_dame_des_lorettes"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checklorette"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl1.2"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl.1">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/trinite"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/eglise_saint_augustin_2"/>
+
+                    <ImageView
+                        android:id="@+id/checktrinite"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/sacrecoeur"
+                        android:background="@drawable/sacre_coeur"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checksacrecoeur"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl1.3"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl1.2">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/murjetaime"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/mur_je_taime"/>
+
+                    <ImageView
+                        android:id="@+id/checkmurjetaime"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/basketduperre"
+                        android:background="@drawable/basket_duperre"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkbasketduperre"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl1.4"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl1.3">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/garedunord"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gare_nord"/>
+
+                    <ImageView
+                        android:id="@+id/checkgaredunord"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/canalstmartin"
+                        android:background="@drawable/canal_saint_martin"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkcanalstmartin"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl1.5"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl1.4">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/bassinarsenal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bassin_arsenal"/>
+
+                    <ImageView
+                        android:id="@+id/checkbassinarsenal"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/colonnesburen"
+                        android:background="@drawable/colonnes_buren"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkcolonnesburen"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl1.6"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl1.5">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/museeorsay"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/musee_orsay"/>
+
+                    <ImageView
+                        android:id="@+id/checkmuseeorsay"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/placevosges"
+                        android:background="@drawable/place_vosges"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkplacevosges"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl1.7"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl1.6">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/gareest"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gare_est"/>
+
+                    <ImageView
+                        android:id="@+id/checkgareest"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/petitpalais"
+                        android:background="@drawable/petit_palais"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkpetitpalais"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl1.8"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl1.7">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/eglisestlouisstpaul"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/eglise_stlouis_stpaul"/>
+
+                    <ImageView
+                        android:id="@+id/checkeglisestlouistpaul"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/placestmichel"
+                        android:background="@drawable/place_stmichel"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkstmichel"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl1.9"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl1.8">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/elysee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/elysee"/>
+
+                    <ImageView
+                        android:id="@+id/checkelysee"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/cdescartes"
+                        android:background="@drawable/descartes"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkdescartes"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

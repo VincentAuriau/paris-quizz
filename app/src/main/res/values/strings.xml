@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Paris Quizz</string>
+    <string name="play">PLAY</string>
+    <string name="selectionniveau">Select your level</string>
+    <string name="niveau1">Level 1</string>
+    <string name="niveau2">Level 2</string>
+    <string name="niveau3">level 3</string>
+    <string name="Score">SCORE : </string>
+    <string name="validate">VALIDATE</string>
+    <string name="nameplace">Name of the place :</string>
+    <string name="lvl1">Level 1</string>
+    <string name="check">check</string>
+    <string name="retour">BACK</string>
+    <string name="lvl2">Level 2</string>
+    <string name="initialize">Reset</string>
+    <string name="cominsoon">Coming Soon</string>
+    <string name="niveau4">Level 4</string>
+</resources>

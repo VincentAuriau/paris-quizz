@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Noir">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentTop="true"
+        android:id="@+id/scrollViewLvl3">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:text="@string/niveau3"
+                android:background="@color/Noir"
+                android:textColor="@color/Blanc"
+                android:textSize="32sp"
+                android:id="@+id/textViewLvl1" />
+
+            <LinearLayout
+                android:id="@+id/linearlvl3.1"
+                android:layout_width="match_parent"
+                android:layout_height="220dp">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="50dp">
+
+                    <Button
+                        android:id="@+id/garelyon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/gare_lyon"/>
+
+                    <ImageView
+                        android:id="@+id/checkgarelyon"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="50dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/hotelmarine"
+                        android:background="@drawable/hotel_marine"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkhotelmarine"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl3.2"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl3.1">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/chatelet"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/place_chatelet"/>
+
+                    <ImageView
+                        android:id="@+id/checkchatelet"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/kiosque"
+                        android:background="@drawable/kiosque_noctambules_palais_royal"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkkiosque"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearlvl3.3"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl3.2">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/operabastille"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/opera_bastille"/>
+
+                    <ImageView
+                        android:id="@+id/checkoperabastille"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/placebeauvau"
+                        android:background="@drawable/place_beauvau"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkbeauvau"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl3.4"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl3.3">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/moulinrouge"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/moulin_rouge"/>
+
+                    <ImageView
+                        android:id="@+id/checkmoulinrouge"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/jardinstroca"
+                        android:background="@drawable/jardins_troca"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkjardinstroca"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl3.5"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl3.4">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/chapelleexpiatoire"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/chapelle_expiatoire"/>
+
+                    <ImageView
+                        android:id="@+id/checkchapelleexpiatoire"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/villette"
+                        android:background="@drawable/la_villette"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkvillette"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl3.6"
+                android:layout_width="match_parent"
+                android:layout_height="190dp"
+                android:layout_below="@id/linearlvl3.5">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/biblichaptal"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bibli_chaptal"/>
+
+                    <ImageView
+                        android:id="@+id/checkbiblichaptal"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/ruerivoli"
+                        android:background="@drawable/rue_rivoli"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkrivoli"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl3.7"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_below="@id/linearlvl3.6">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/passerellebaker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/passerelle_josephine_baker"/>
+
+                    <ImageView
+                        android:id="@+id/checkpasserellebaker"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/madeleine"
+                        android:background="@drawable/madeleine"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkmadeleine"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl3.8"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_below="@id/linearlvl3.7">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/necker"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/hopital_necker"/>
+
+                    <ImageView
+                        android:id="@+id/checknecker"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/popb"
+                        android:background="@drawable/palais_bercy"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkpopb"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearlvl3.9"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:layout_below="@id/linearlvl3.8">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:id="@+id/hdv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/hotel_de_ville"/>
+
+                    <ImageView
+                        android:id="@+id/checkhdv"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="0.5"
+                    android:layout_marginTop="10dp">
+
+                    <Button
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/pontalex3"
+                        android:background="@drawable/pont_alexandre_3"
+                        />
+
+                    <ImageView
+                        android:id="@+id/checkpontalex3"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:contentDescription="@string/check"
+                        android:src="@drawable/check"
+                        android:visibility="invisible"
+                        android:layout_gravity="end|bottom"
+                        android:elevation="2dp"/>
+
+
+                </FrameLayout>
+
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
